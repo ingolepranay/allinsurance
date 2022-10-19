@@ -1,0 +1,54 @@
+<p>sample-test works!</p>
+
+<!-- <div *ngIf="checkFlag">
+    This is true Div
+</div>
+
+<div *ngIf="!checkFlag">
+    This is false Div
+</div> -->
+
+<!-- <div *ngIf="checkFlag else showngTemplate">
+    <table>
+        <tr>
+            <th>Data</th>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+    </table>
+</div> -->
+
+
+
+
+
+    <table class="table table-stripped">
+        <tr>
+            <th>id</th>
+            <th> Name</th>
+            <th>User</th>
+            <th>Email</th>
+        </tr>
+        <tr *ngFor="let x of data2">
+
+            <td>{{x.id}}</td>
+            <td>{{x.name}}</td>
+            <td>{{x.username}}</td>
+            <td>{{x.email}}</td>
+
+             <!-- <td>{{x.id}}</td>
+            <td>{{x.name}}</td>
+            <td>{{x.year}}</td>
+            <td>{{x.color}}</td>   -->
+        </tr>
+    </table>
+
+
+
+
+<!-- <ng-container *ngIf="subjectFlag">
+    <div  *ngFor="let sub of subject">
+        {{sub}}
+    </div>
+</ng-container> -->
